@@ -1,0 +1,104 @@
+body {
+    background-color: #A09B44;
+}
+
+header {
+    background-color: #C0B36A;
+    height: 96px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header div:first-child {
+    display: flex;
+    align-items: center;
+}
+
+header a {
+    color:white;
+    text-decoration: none;
+    background-color: #A04D44;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 143px;
+    height: 27px;
+    margin: 0 20px;
+}
+
+header a:first-child {
+    background-color: #E6A7A0;
+    width: 112px;
+}
+
+h2 {
+    text-align: center;
+    font-size:36px;
+}
+
+p {
+    text-align:center;
+}
+
+h2:first-child {
+    color:#605F64;
+}
+
+h2 img {
+    margin-top: 30px;
+}
+
+section {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 354px;
+    background-color: #802D24;
+    margin: 0 auto;
+    text-align:center;
+}
+
+.panel {
+    background-color: white;
+    height: 136px;
+    text-align: center;
+    padding: 50px;
+}
+
+.reviews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviews article {
+    background-color: white;
+    width: 208px;
+    height: 213px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 15px;
+    font-size: 12px;
+    margin: 0 30px;
+}
+
+.panel p {
+    margin-bottom: 50px;
+}
+
+.panel a {
+    text-decoration: none;
+    color: white;
+    background-color: #605F64;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 103px;
+    height: 27px;
+}
+
+footer {
+    background-color: #605F64;
+    color:white;
+    text-align: center;
+}
